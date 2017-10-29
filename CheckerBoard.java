@@ -30,19 +30,19 @@ public class CheckerBoard
 							{
 								if(j % 2 == 0)
 								{
-									pane.add(new CheckerPanel(Color.red));
+									pane.add(new CheckerPanel(Color.blue));
 								}
 								else
-									pane.add(new CheckerPanel(Color.black));
+									pane.add(new CheckerPanel(Color.yellow));
 							}
 						else
 						{
 							if(j % 2 == 0)
 								{
-									pane.add(new CheckerPanel(Color.black));
+									pane.add(new CheckerPanel(Color.yellow));
 								}
 								else
-									pane.add(new CheckerPanel(Color.red));
+									pane.add(new CheckerPanel(Color.blue));
 						}
 						
 					}
